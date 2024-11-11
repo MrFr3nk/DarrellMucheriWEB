@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Darrell Mucheri",
+  username: "Darrell Muchwri",
   title: "Hi all, I'm Darrell",
   subTitle: emoji(
-    "A passionate Front End Software Developer 🚀 having an experience of building Web applications with JavaScript /  CSS / HTML5/  Nodejs  and some other cool libraries and frameworks."
+    "A passionate Front End Software Developer 🚀 having an experience of building Web and Simple less complicated Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -34,10 +34,12 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/MrFr3nk",
-  linkedin: "https://www.linkedin.com/in/darrellmucheri/",
-  gmail: "darrelmucheri@gmail.com",
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "saadpasta70@gmail.com",
+  gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
-  whatsapp: "https://wa.me/263719647303",
+  medium: "https://medium.com/@saadpasta",
+  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -47,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and simple mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Chatbot Design to solve problems"),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Heroku Or AWS"
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
 
@@ -70,17 +72,26 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-   
+    {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -93,12 +104,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -109,17 +126,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "St Marys High",
+      schoolName: "Harvard University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Best Student of Science in Computer Science",
-      duration: "January 2021- November 2024",
-      desc: "Participated in the research of 2024 July science exhebition and proceeded to nationals.",
+      subHeader: "Master of Science in Computer Science",
+      duration: "September 2017 - April 2019",
+      desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
-    
+    {
+      schoolName: "Stanford University",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
+  ]
+};
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -131,11 +158,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "20%"
+      progressPercentage: "70%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "50%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -147,10 +174,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Self Freelancer",
+      role: "Software Engineer",
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "January 2022 – Present",
+      date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -164,7 +191,16 @@ const workExperiences = {
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+};
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -181,24 +217,24 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "SubZero Bot",
-      projectDesc: "A whatsapp Chatbot to Download music, pictures, Ai research on whatsapp using front end APIs on whatsapp",
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Source code",
-          url: "http://github.com/SubZero-V4"
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Ecobot",
-      projectDesc: "A whatsapp chatbot to pay fees online and check balance of students using Ecocash and Onemoney on whatsapp",
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://github.com/EcoBot/"
+          url: "http://nextu.se/"
         }
       ]
     }
@@ -264,7 +300,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -288,7 +324,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -307,7 +343,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -320,7 +356,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -335,19 +371,19 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all on whatsapp.",
-  number: "+263719647303",
-  email_address: "darrellmucheri@gmail.com"
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+92-0000000000",
+  email_address: "saadpasta70@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "darrellmucheri", //Replace "twitter" with your twitter username without @
+  userName: "twitter", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
