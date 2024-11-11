@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Darrell Muchwri",
+  username: "Darrell Mucheri",
   title: "Hi all, I'm Darrell",
   subTitle: emoji(
     "A passionate Front End Software Developer 🚀 having an experience of building Web and Simple less complicated Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
