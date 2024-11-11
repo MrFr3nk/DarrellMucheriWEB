@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/darrellmucheri/",
   gmail: "darrelmucheri@gmail.com",
   facebook: "https://www.facebook.com/saad.pasta7",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  whatsapp: "https://wa.me/263719647303",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
